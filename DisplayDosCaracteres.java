@@ -40,7 +40,7 @@ public class DisplayDosCaracteres
     public String getTextoDelDisplay()
     {
         if(valorAlmacenado < 10) {
-            return "0" + valorAlmacenado;
+            return  "0" + valorAlmacenado;
         }
         else {
             return "" + valorAlmacenado;
